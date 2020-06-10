@@ -1,0 +1,24 @@
+address range of VPC = blr1-vpc-addressbook is 192.168.0.0/24
+databasename = addressbook_db
+username = addressbook_user
+password = qh8osz0wtpsg1p7o
+
+private vpc network connection details 
+ername = doadmin
+password = js0rbw513dw2vfpi
+host = private-db-postgresql-blr1-addressbook-do-user-7585873-0.a.db.ondigitalocean.com
+port = 25060
+database = defaultdb
+sslmode = requiresername = doadmin
+
+
+APP Specs:
+	1. Component 1: a module that interacts with the database. Create and Read
+		database.js
+		database.test.js (for testing)
+
+	2. Component 2: a module that provides RESTful HTTP service. Request and Respond according to above spec.
+		app.js
+	
+
+
