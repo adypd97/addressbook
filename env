@@ -1,0 +1,10 @@
+export DB_SCHEMA=addressbook_db
+export DB_USER=addressbook_user
+export DB_PASSWORD=qh8osz0wtpsg1p7o
+export DB_HOST=db-postgresql-blr1-addressbook-do-user-7585873-0.a.db.ondigitalocean.com
+export DB_PORT=25060
+export DB_SSL=true
+export PORT=3000
+export NODE_TLS_REJECT_UNAUTHORIZED='0'
+export NODE_ENV=development
+

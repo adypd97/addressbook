@@ -11,6 +11,8 @@ port = 25060
 database = defaultdb
 sslmode = requiresername = doadmin
 
+TUTORIAL URL:
+	1. https://www.digitalocean.com/community/tutorials/how-to-build-and-deploy-a-node-js-application-to-digitalocean-kubernetes-using-semaphore-continuous-integration-and-delivery
 
 APP Specs:
 	1. Component 1: a module that interacts with the database. Create and Read
