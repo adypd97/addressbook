@@ -32,6 +32,8 @@ spec:
                                             value: "$DB_PORT"
                                           - name: DB_SSL
                                             value: "$DB_SSL"
+                                          - name: NODE_TLS_REJECT_UNAUTHORIZED
+                                            value: "$NODE_TLS_REJECT_UNAUTHORIZED"
 ---
 
 apiVersion: v1
