@@ -1,3 +1,4 @@
+//NOT WORKING- TODO, SOME SSL PROBLEM AND NOW LOAD BALANCER ISN'T COMING LIVE
 address range of VPC = blr1-vpc-addressbook is 192.168.0.0/24
 databasename = addressbook_db
 username = addressbook_user
