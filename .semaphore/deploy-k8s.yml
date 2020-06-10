@@ -43,7 +43,7 @@ blocks:
                           - name: docker tag latest
                             commands:
                                     - docker pull "${DOCKER_USERNAME}/addressbook:$SEMAPHORE_WORKFLOW_ID"
-                                    - docker tag "${DOCKER_USERNAME}/addressbook:$SEMAPHORE_WORKFLOW_ID" "${DOCKER_USERNAME/addressbook:latest"
+                                    - docker tag "${DOCKER_USERNAME}/addressbook:$SEMAPHORE_WORKFLOW_ID" "${DOCKER_USERNAME}/addressbook:latest"
                                     - docker push "${DOCKER_USERNAME}/addressbook:latest"
 
                                                       
