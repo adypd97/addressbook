@@ -49,7 +49,7 @@ app.delete("/person/:id", function(req,res) {
 	})
 	.catch( err => {
 		res.status(500).send(JSON.stringify(err));
-	})
+	});
 });
 
 // and now to get all the people in the database
