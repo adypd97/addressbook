@@ -2,7 +2,7 @@
 address range of VPC = blr1-vpc-addressbook is 192.168.0.0/24
 databasename = addressbook_db
 username = addressbook_user
-password = qh8osz0wtpsg1p7o
+password = edusxnxgotm9btgs
 
 private vpc network connection details 
 ername = doadmin
