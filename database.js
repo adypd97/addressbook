@@ -1,4 +1,7 @@
 const Sequelize = require('sequelize');
+const fs = require('fs');
+
+const cCA = fs.readFileSync('./ca-certificate.crt');
 
 const sequelize = new Sequelize(process.env.DB_SCHEMA || 'postgres',
 				process.env.DB_USER || 'postgres',
@@ -8,7 +11,9 @@ const sequelize = new Sequelize(process.env.DB_SCHEMA || 'postgres',
 					host: process.env.DB_HOST || 'localhost',
 					port: process.env.DB_PORT || 5432,
 					dialectOptions: {
-						ssl: process.env.DB_SSL == "true"
+						ssl: {
+							ca: [cCA]
+						}
 
 					}
 				});
