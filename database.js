@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 const fs = require('fs');
 
-const cCA = fs.readFileSync('./ca-certificate.crt');
+const cCA = fs.readFileSync('ca-certificate.crt');
 
 const sequelize = new Sequelize(process.env.DB_SCHEMA || 'postgres',
 				process.env.DB_USER || 'postgres',
