@@ -20,7 +20,7 @@ blocks:
                             commands:
                                     - cache restore
                                     - npm install
-                                    - cache restore
+                                    - cache store
         - name: Tests
           task:
                   env_vars:
