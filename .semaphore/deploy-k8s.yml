@@ -16,7 +16,7 @@ blocks:
                             value: addressbook-server
                   prologue:
                           commands:
-                                  - wget https://github.com/digitalocean/doctl/releases/v1.45.0/doctl-1.45.0-linux-amd64.tar.gz
+                                  - wget https://github.com/digitalocean/doctl/releases/tag/v1.45.0/doctl-1.45.0-linux-amd64.tar.gz
                                   - tar xf doctl-1.45.0-linux-amd64.tar.gz
                                   - sudo cp doctl /usr/local/bin
                                   - doctl auth init --access-token $DO_ACCESS_TOKEN
