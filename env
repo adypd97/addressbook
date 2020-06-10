@@ -6,5 +6,5 @@ export DB_PORT=25060
 export DB_SSL=true
 export PORT=3000
 export NODE_TLS_REJECT_UNAUTHORIZED='0'
-export NODE_ENV=development
+export NODE_ENV=test
 
