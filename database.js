@@ -10,7 +10,6 @@ const sequelize = new Sequelize(process.env.DB_SCHEMA || 'postgres',
 					dialectOptions: {
 						ssl: {
 							require: true,
-							rejectUnauthorized: false
 						}
 
 					}
